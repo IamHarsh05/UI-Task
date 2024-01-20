@@ -7,7 +7,7 @@ export default function Description() {
     <div className="bg-white flex flex-col px-10 py-2 divide-y-2 rounded-lg">
       <div className="py-2">
         <div>
-          <p className="text-lg font-semibold py-4">Exam Details:</p>
+          <p className="text-lg font-semibold py-4">Stores Information:</p>
           <ul className="list-disc">
             {description[0].storeInfo.map((content, index) => (
               <li key={index}>{content}</li>
@@ -15,7 +15,7 @@ export default function Description() {
           </ul>
         </div>
         <div>
-          <p className="text-lg font-semibold py-4">Eligibility:</p>
+          <p className="text-lg font-semibold py-4">Customers:</p>
           <ul className="list-disc">
             {description[0].eligibility.map((content, index) => (
               <li key={index}>{content}</li>
